@@ -1,0 +1,26 @@
+/* styles/StatusTag.module.css */
+.status {
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .active {
+    background-color: green;
+  }
+  
+  .inactive {
+    background-color: red;
+  }
+  
+  .expired {
+    background-color: orange;
+  }
+  
+  .defaultStatus {
+    background-color: gray;
+  }
+  

@@ -1,0 +1,50 @@
+.tableContainer {
+    padding: 1rem;
+    background-color: rgb(236, 227, 206); /* Lightest color for container background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .header {
+    background-color: rgb(115, 144, 114); /* Intermediate green for headers */
+    color: rgb(236, 227, 206); /* Lightest color for header text */
+  }
+  
+  .cell {
+    color: rgb(58, 77, 57); /* Darkest green for text */
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 1px solid rgb(236, 227, 206); /* Lightest color for borders */
+    font-size: 0.9rem;
+  }
+  
+  .resolveButton {
+    background-color: rgb(79, 111, 82); /* Dark green for buttons */
+    color: rgb(236, 227, 206); /* Lightest color for button text */
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resolveButton:hover {
+    background-color: rgb(58, 77, 57); /* Darkest green for buttons on hover */
+  }
+  
+  .mapLink {
+    color: rgb(115, 144, 114); /* Intermediate green for links */
+    text-decoration: none;
+  }
+  
+  .mapLink:hover {
+    color: rgb(79, 111, 82); /* Dark green for links on hover */
+    text-decoration: underline;
+  }
+  

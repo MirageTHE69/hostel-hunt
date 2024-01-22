@@ -1,0 +1,37 @@
+.sidebar {
+    width: 250px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 20px;
+   
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+  
+      background: rgb(var(--sidebar-bg));
+      color: white; /* Assuming we keep the text white for contrast */
+    
+  }
+  
+  .sidebar a {
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    color: rgb(var(--sidebar-link-color));
+    transition: background 0.3s ease;
+  }
+  
+  .sidebar a:hover {
+    background-color: rgb(var(--sidebar-link-hover-bg));
+    color: white; /* Assuming we change the text to white for readability on hover */}
+  
+  
+  .main-content {
+    margin-left: 250px;
+    padding: 1rem;
+    background-color: rgb(var(--main-content-bg));
+    display: flex;
+  }
+  
+  /* Add additional global styles and utilities as needed */
+  

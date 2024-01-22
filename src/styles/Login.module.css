@@ -1,0 +1,33 @@
+.loginContainer {
+    display: flex;
+    minHeight: 100vh;
+  }
+  
+  .leftPanel {
+    flex: 1;
+    position: relative;
+  }
+  
+  .rightPanel {
+    flex: 1;
+    display: flex;
+    justifyContent: center;
+    alignItems: center;
+  }
+  
+  .testimonial {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    color: white;
+  }
+  
+  .loginForm {
+    width: 100%;
+    maxWidth: 400px;
+    padding: 2rem;
+    boxSizing: border-box;
+  }
+  
+  /* Add your styles for inputs and button here, including glassmorphism effects */
+  

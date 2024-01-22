@@ -1,0 +1,35 @@
+Copy code
+:root {
+  --foreground-rgb: 58, 77, 57; /* Darkest green for text */
+  --background-start-rgb: 236, 227, 206; /* Lightest color for background start */
+  --background-end-rgb: 115, 144, 114; /* Intermediate green for background end */
+  --sidebar-bg: 79, 111, 82; /* Dark green for the sidebar */
+  --sidebar-link-color: 236, 227, 206; /* Lightest color for sidebar links */
+  --sidebar-link-hover-bg: 58, 77, 57; /* Darkest green for sidebar links on hover */
+  --main-content-bg: 236, 227, 206; /* Lightest color for the main content background */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 236, 227, 206; /* Lightest color for dark theme text */
+    --background-start-rgb: 58, 77, 57; /* Darkest green for dark theme background start */
+    --background-end-rgb: 79, 111, 82; /* Dark green for dark theme background end */
+    --sidebar-bg: 115, 144, 114; /* Intermediate green for dark theme sidebar */
+    --sidebar-link-color: 236, 227, 206; /* Lightest color for dark theme sidebar links */
+    --sidebar-link-hover-bg: 236, 227, 206; /* Lightest color for dark theme sidebar links on hover */
+    --main-content-bg: 58, 77, 57; /* Darkest green for the dark theme main content background */
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(var(--background-end-rgb))
+  ) rgb(var(--background-start-rgb));
+
+  
+}
+
+
